@@ -73,7 +73,7 @@ void loop() {
 
   // Display time
   display.clearDisplay();
-  display.setTextSize();
+  display.setTextSize(1);
   display.setCursor(0, 0);
   display.print("Time:");
   display.setCursor(0, 10);
